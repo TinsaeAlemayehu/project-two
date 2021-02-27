@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    min-height: 200px;
+    background-color: #293F51;
+    color: #fff;
+}
+.container{
+    width: 56%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.top{
+    width: 100%;
+}
+.top .logo{
+    font-weight: 100;
+    float: left;
+    left:0;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    border-top: 4px  solid  #798288;
+    cursor: pointer;
+    padding-top:30px;
+}
+.top .sideMenu{
+    float: right; 
+    padding-top: 66px;
+}
