@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin:0;
-    font-family: 'Montserrat', sans-serif;
 }
 header{
     width: 100%;
@@ -10,8 +9,7 @@ header{
     color: #fff;
 }
 .container{
-    width: 56%;
-    justify-content: center;
+    width: 55%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -21,16 +19,47 @@ header{
     width: 100%;
 }
 .top .logo{
-    font-weight: 100;
+    
     float: left;
     left:0;
     font-size: 2.2em;
     text-transform: uppercase;
     border-top: 4px  solid  #798288;
     cursor: pointer;
-    padding-top:30px;
+    padding-top:31px;
 }
 .top .sideMenu{
     float: right; 
     padding-top: 66px;
+}
+.carousel-caption h5{
+
+    font-size: 45px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+    margin-bottom:30%;
+
+    margin-top: 25px;
+
+    font-family: merienda;
+
+}
+
+.carousel-caption p{
+
+    width: 60%;
+
+    margin: auto;
+
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    font-family: poppins;
+
+}
+h5{
+    color: #fff;
 }
