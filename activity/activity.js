@@ -7,3 +7,7 @@ class Activity{
         
     }
 }
+
+let activities = []
+export let activityFromJson = (myJson) => {
+    let activity = new Activity(myJson);
