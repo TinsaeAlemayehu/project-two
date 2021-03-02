@@ -16,3 +16,10 @@ let mainController = async() => {
     socondSlide.innerHTML = `${activities[0][2].activity}`
     thirdSlide.innerHTML = `${activities[0][0].activity}`
 }
+
+
+mainController()
+
+function loadActivities(){
+    location.reload();
+}
