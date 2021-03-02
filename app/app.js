@@ -11,3 +11,8 @@ let mainController = async() => {
     let services = await new Services().fetchActivities();
     await new Services().fetchActivities();
     await new Services().fetchActivities();
+    activities.push(services)
+    firstSlide.innerHTML = `${activities[0][1].activity}`
+    socondSlide.innerHTML = `${activities[0][2].activity}`
+    thirdSlide.innerHTML = `${activities[0][0].activity}`
+}
